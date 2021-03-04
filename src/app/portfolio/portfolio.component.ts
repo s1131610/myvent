@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'portfolio',
@@ -7,8 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
 
-  @Input() hero: string;
-
+ 
   constructor() { }
 
   ngOnInit() {
