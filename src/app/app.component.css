@@ -1,3 +1,9 @@
 p {
   font-family: Lato;
 }
+.navbar-custom{
+  background-color: #008c9b;
+}
+.app-container{
+  padding: 8%;
+}
